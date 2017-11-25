@@ -1,0 +1,5 @@
+30/10/2017 12:34:22 Successfully connected
+30/10/2017 12:34:28 Sent message: who
+30/10/2017 12:34:28 Received message: Author: Olexandr Yermilov Group: K-24 Variant: 9 - calculator
+30/10/2017 12:34:30 Sent message: / 3 1
+30/10/2017 12:34:30 Received message: 3.0000000000

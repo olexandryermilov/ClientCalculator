@@ -1,0 +1,9 @@
+25/11/2017 18:38:53 Successfully connected
+25/11/2017 18:38:56 Sent message: 3 + 5
+25/11/2017 18:38:56 Received message: 8
+25/11/2017 18:39:04 Sent message: 18 / (3+5)
+25/11/2017 18:39:04 Received message: Wrong expression: should be  operand operand {+,-,*,/}
+25/11/2017 18:39:16 Sent message: 18 / ( 3 + 5 )
+25/11/2017 18:39:16 Received message: 2.2500000000
+25/11/2017 18:39:27 Sent message: 18 / (3 + 5)
+25/11/2017 18:39:27 Received message: Wrong expression: should be  operand operand {+,-,*,/}

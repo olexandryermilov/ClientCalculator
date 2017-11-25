@@ -1,0 +1,5 @@
+30/10/2017 12:33:05 Successfully connected
+30/10/2017 12:33:08 Sent message: who
+30/10/2017 12:33:08 Received message: Author: Olexandr Yermilov Group: K-24 Variant: 9 - calculator
+30/10/2017 12:33:21 Sent message: / 3 1
+30/10/2017 12:33:21 Received message: Wrong expression: should be {+,-,*,/} operand operand

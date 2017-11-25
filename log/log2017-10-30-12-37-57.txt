@@ -1,0 +1,11 @@
+30/10/2017 12:37:57 Successfully connected
+30/10/2017 12:38:31 Sent message: who
+30/10/2017 12:38:31 Received message: Author: Olexandr Yermilov Group: K-24 Variant: 9 - calculator
+30/10/2017 12:38:40 Sent message: 1 3 /
+30/10/2017 12:38:40 Received message: 0.3333333334
+30/10/2017 12:38:58 Sent message: 15 7 1 1 +  / 3 * 2 1 1 + + 
+30/10/2017 12:38:58 Received message: 2Wrong expression: should be  operand operand {+,-,*,/}
+30/10/2017 12:39:14 Sent message: 15 7 1 1 + - / 3 * 2 1 1 + + -
+30/10/2017 12:39:14 Received message: 5.0000000000
+30/10/2017 12:39:21 Sent message: / 3 1
+30/10/2017 12:39:21 Received message: Wrong expression: should be operand operand {+,-,*,/} 

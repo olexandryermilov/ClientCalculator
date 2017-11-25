@@ -1,0 +1,3 @@
+30/10/2017 00:58:08 Successfully connected
+30/10/2017 00:58:15 Sent message: 15 7 1 1 +  ÷ 3 × 2 1 1 + + 
+30/10/2017 00:58:15 Received message: Wrong expression: should be {+,-,*,/} operand operand

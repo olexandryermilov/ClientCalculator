@@ -1,0 +1,5 @@
+25/11/2017 18:37:32 Successfully connected
+25/11/2017 18:37:35 Sent message: 3+5
+25/11/2017 18:37:35 Received message: Wrong expression: should be  operand operand {+,-,*,/}
+25/11/2017 18:37:41 Sent message: + 3 5
+25/11/2017 18:37:41 Received message: 8

@@ -1,0 +1,14 @@
+31/10/2017 17:11:35 Successfully connected
+31/10/2017 17:11:51 Sent message: who
+31/10/2017 17:11:51 Received message: Author: Olexandr Yermilov Group: K-24 Variant: 9 - calculator
+31/10/2017 17:11:57 Sent message: 1034 17 /
+31/10/2017 17:11:58 Received message: 60.8235294118
+31/10/2017 17:12:05 Sent message: 18 0 /
+31/10/2017 17:12:05 Received message: Error: Division by zero
+31/10/2017 17:12:14 Sent message: 1027432423 1342354534543 *
+31/10/2017 17:12:14 Received message: 1379178571950551687689
+31/10/2017 17:12:20 Sent message: exit
+31/10/2017 17:12:20 Received message: 
+31/10/2017 17:12:20 During connection 2 times calculated result
+31/10/2017 17:12:20 Min is 0, max is 1342354534543, average is 223896994672.5000000000
+31/10/2017 17:12:20 Disconnecting

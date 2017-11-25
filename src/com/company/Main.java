@@ -63,6 +63,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("If you want to choose your port number and host name, please enter it in ip:port format, otherwise just enter -1");
         String input = in.nextLine();
+        if(input.equals("-1"))return;
         while(!isCorrectIpPort(input)) {
             System.out.println("Wrong host name, should be ip:port");
             input=in.nextLine();
