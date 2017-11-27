@@ -2,10 +2,7 @@ package com.company;
 
 import Logger.Logger;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Scanner;
@@ -59,20 +56,23 @@ public class Main {
         }
         return false;
     }
-    private static void getPort(){
+    private static void getPort() throws FileNotFoundException {
         Scanner in = new Scanner(System.in);
         System.out.println("If you want to choose your port number and host name, please enter it in ip:port format, otherwise just enter -1");
         String input = in.nextLine();
-        if(input.equals("-1"))return;
+        if(input.equals("-1")){
+            in = new Scanner(new FileInputStream(new File("config.ini")));
+            input=in.nextLine();
+        }
         while(!isCorrectIpPort(input)) {
-            System.out.println("Wrong host name, should be ip:port");
+            if(!in.equals("-1"))System.out.println("Wrong host name, should be ip:port");
             input=in.nextLine();
         }
         return;
     }
     public static void main(String[] args) {
-        getPort();
         try{
+            getPort();
             Socket echoSocket = new Socket(hostName,portNumber);
             PrintWriter out = new PrintWriter(echoSocket.getOutputStream(), true);
             BufferedReader in = new BufferedReader(new InputStreamReader(echoSocket.getInputStream()));
